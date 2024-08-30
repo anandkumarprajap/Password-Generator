@@ -145,12 +145,16 @@ h1 {
     background-color: var(--vb-violet);
     text-align: center;
     border-radius: 0.75rem;
-    border-bottom: 0.35rem solid var(--vb-yellow);
+    box-shadow: 0px 0px 2px 2px rgb(13, 211, 132);
+    border-radius:10px;
+    border:none;
+    color: #000000;
+    /* border-bottom: 0.35rem solid var(--vb-yellow); */
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--vb-yellow);
+    /* color: var(--vb-yellow); */
     font-weight: 600;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
   }
 
 .check {
